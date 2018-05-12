@@ -4,53 +4,43 @@
 
     
   <url>
-    <loc>https://lavalmail.github.io/2018/05/12/This-is-the-third-test/</loc>
-    <lastmod>2018-05-12T03:50:26.822Z</lastmod>
+    <loc>https://lavalmail.github.io/2018/05/12/new-post/</loc>
+    <lastmod>2018-05-12T07:49:04.222Z</lastmod>
     <data>
         <display>
-        <title>This is the third test</title>
-        <pubTime>2018-05-12T03:48:35.000Z</pubTime>
+        <title>new_post</title>
+        <pubTime>2018-05-12T06:52:11.000Z</pubTime>
         
+        <tag>Blog</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lavalmail.github.io/2018/05/12/This-is-the-second-test/</loc>
-    <lastmod>2018-05-12T03:46:49.411Z</lastmod>
-    <data>
-        <display>
-        <title>This is the second test</title>
-        <pubTime>2018-05-12T03:44:44.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-    
-  <url>
-    <loc>https://lavalmail.github.io/2018/05/11/laval-s-first-test/</loc>
-    <lastmod>2018-05-11T09:13:34.509Z</lastmod>
-    <data>
-        <display>
-        <title>laval's first test</title>
-        <pubTime>2018-05-11T06:26:50.000Z</pubTime>
-        
-        <tag>github</tag>
+        <tag>Create Post</tag>
          
          
            
              
-              <breadCrumb title="搭建博客" url="https://lavalmail.github.io/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+              <breadCrumb title="发布新的博客" url="https://lavalmail.github.io/categories/%E5%8F%91%E5%B8%83%E6%96%B0%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lavalmail.github.io/2018/05/12/Some-Books-Related-to-Python/</loc>
+    <lastmod>2018-05-12T07:48:55.862Z</lastmod>
+    <data>
+        <display>
+        <title>Some Books Related to Python</title>
+        <pubTime>2018-05-12T07:31:54.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Books</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://lavalmail.github.io/categories/Python/"/>
           
         </display>
     </data>
@@ -60,18 +50,6 @@
     
     
     
-  <url>
-    <loc>https://lavalmail.github.io/2018/05/11/hello-world/</loc>
-    <lastmod>2018-05-11T05:56:56.779Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-05-11T05:56:56.778Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
+    
 </urlset>
