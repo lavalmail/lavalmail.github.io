@@ -1,55 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>This is the third test</title>
-      <link href="/2018/05/12/This-is-the-third-test/"/>
-      <url>/2018/05/12/This-is-the-third-test/</url>
-      <content type="html"><![CDATA[<p>What exactly happens when a method is called? You may have noticed that x.f() was called without an<br>argument above, even though the function definition for f() specified an argument. What happened to the<br>argument? Surely Python raises an exception when a function that requires an argument is called without<br>any — even if the argument isn’t actually used…<br>Actually, you may have guessed the answer: the special thing about methods is that the instance object is<br>passed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.<br>f(x). In general, calling a method with a list of n arguments is equivalent to calling the corresponding<br>function with an argument list that is created by inserting the method’s instance object before the first<br>argument.<br>If you still don’t understand how methods work, a look at the implementation can perhaps clarify matters.<br>When an instance attribute is referenced that isn’t a data attribute, its class is searched. If the name<br>denotes a valid class attribute that is a function object, a method object is created by packing (pointers to)<br>the instance object and the function object just found together in an abstract object: this is the method<br>object. When the method object is called with an argument list, a new argument list is constructed from<br>the instance object and the argument list, and the function object is called with this new argument list.</p>]]></content>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>This is the second test</title>
-      <link href="/2018/05/12/This-is-the-second-test/"/>
-      <url>/2018/05/12/This-is-the-second-test/</url>
-      <content type="html"><![CDATA[<p> My name is laval, and python is the best language.</p>]]></content>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>laval&#39;s first test</title>
-      <link href="/2018/05/11/laval-s-first-test/"/>
-      <url>/2018/05/11/laval-s-first-test/</url>
-      <content type="html"><![CDATA[<p>这是一篇测试文章</p>]]></content>
-      
+<search>
+  <entry>
+    <title><![CDATA[This is the third test]]></title>
+    <url>%2F2018%2F05%2F12%2FThis-is-the-third-test%2F</url>
+    <content type="text"><![CDATA[What exactly happens when a method is called? You may have noticed that x.f() was called without anargument above, even though the function definition for f() specified an argument. What happened to theargument? Surely Python raises an exception when a function that requires an argument is called withoutany — even if the argument isn’t actually used…Actually, you may have guessed the answer: the special thing about methods is that the instance object ispassed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.f(x). In general, calling a method with a list of n arguments is equivalent to calling the correspondingfunction with an argument list that is created by inserting the method’s instance object before the firstargument.If you still don’t understand how methods work, a look at the implementation can perhaps clarify matters.When an instance attribute is referenced that isn’t a data attribute, its class is searched. If the namedenotes a valid class attribute that is a function object, a method object is created by packing (pointers to)the instance object and the function object just found together in an abstract object: this is the methodobject. When the method object is called with an argument list, a new argument list is constructed fromthe instance object and the argument list, and the function object is called with this new argument list.]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[This is the second test]]></title>
+    <url>%2F2018%2F05%2F12%2FThis-is-the-second-test%2F</url>
+    <content type="text"><![CDATA[My name is laval, and python is the best language.]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[laval's first test]]></title>
+    <url>%2F2018%2F05%2F11%2Flaval-s-first-test%2F</url>
+    <content type="text"><![CDATA[这是一篇测试文章]]></content>
       <categories>
-          
-          <category> 搭建博客 </category>
-          
+        <category>搭建博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2018/05/11/hello-world/"/>
-      <url>/2018/05/11/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F05%2F11%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
 </search>
