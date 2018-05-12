@@ -639,6 +639,47 @@
 
 
 
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'lavalmail',
+            repo: 'https://lavalmail.github.io/',
+            
+            lang: "zh-Hans" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '8451f776be53d65aec4a8aff3d667acebe1ce879',
+            
+                client_id: 'ab8f2fbe04997bd86c6b'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      function showGitment(){
+        document.getElementById("gitment-display-button").style.display = "none";
+        document.getElementById("gitment-container").style.display = "block";
+        renderGitment();
+      }
+      
+      </script>
+    
+
+
 
 
 
