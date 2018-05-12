@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lavalmail.github.io/2018/05/12/This-is-the-third-test/</loc>
+    
+    <lastmod>2018-05-12T03:50:26.822Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lavalmail.github.io/2018/05/12/This-is-the-second-test/</loc>
+    
+    <lastmod>2018-05-12T03:46:49.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lavalmail.github.io/about/index.html</loc>
+    
+    <lastmod>2018-05-12T01:53:47.156Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lavalmail.github.io/sitemap/index.html</loc>
     
     <lastmod>2018-05-11T16:55:38.182Z</lastmod>
@@ -12,13 +33,6 @@
     <loc>https://lavalmail.github.io/tags/index-1.html</loc>
     
     <lastmod>2018-05-11T16:54:37.058Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lavalmail.github.io/about/index.html</loc>
-    
-    <lastmod>2018-05-11T09:16:39.987Z</lastmod>
     
   </url>
   

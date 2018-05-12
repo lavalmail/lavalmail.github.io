@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Laval&#39;s Blog</title>
+  
+  <subtitle>Something About Python3</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lavalmail.github.io/"/>
+  <updated>2018-05-12T03:50:26.822Z</updated>
+  <id>https://lavalmail.github.io/</id>
+  
+  <author>
+    <name>laval Lee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>This is the third test</title>
+    <link href="https://lavalmail.github.io/2018/05/12/This-is-the-third-test/"/>
+    <id>https://lavalmail.github.io/2018/05/12/This-is-the-third-test/</id>
+    <published>2018-05-12T03:48:35.000Z</published>
+    <updated>2018-05-12T03:50:26.822Z</updated>
+    
+    <content type="html"><![CDATA[<p>What exactly happens when a method is called? You may have noticed that x.f() was called without an<br>argument above, even though the function definition for f() specified an argument. What happened to the<br>argument? Surely Python raises an exception when a function that requires an argument is called without<br>any — even if the argument isn’t actually used…<br>Actually, you may have guessed the answer: the special thing about methods is that the instance object is<br>passed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.<br>f(x). In general, calling a method with a list of n arguments is equivalent to calling the corresponding<br>function with an argument list that is created by inserting the method’s instance object before the first<br>argument.<br>If you still don’t understand how methods work, a look at the implementation can perhaps clarify matters.<br>When an instance attribute is referenced that isn’t a data attribute, its class is searched. If the name<br>denotes a valid class attribute that is a function object, a method object is created by packing (pointers to)<br>the instance object and the function object just found together in an abstract object: this is the method<br>object. When the method object is called with an argument list, a new argument list is constructed from<br>the instance object and the argument list, and the function object is called with this new argument list.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;What exactly happens when a method is called? You may have noticed that x.f() was called without an&lt;br&gt;argument above, even though the fu
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>This is the second test</title>
+    <link href="https://lavalmail.github.io/2018/05/12/This-is-the-second-test/"/>
+    <id>https://lavalmail.github.io/2018/05/12/This-is-the-second-test/</id>
+    <published>2018-05-12T03:44:44.000Z</published>
+    <updated>2018-05-12T03:46:49.411Z</updated>
+    
+    <content type="html"><![CDATA[<p> My name is laval, and python is the best language.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; My name is laval, and python is the best language.&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>laval&#39;s first test</title>
+    <link href="https://lavalmail.github.io/2018/05/11/laval-s-first-test/"/>
+    <id>https://lavalmail.github.io/2018/05/11/laval-s-first-test/</id>
+    <published>2018-05-11T06:26:50.000Z</published>
+    <updated>2018-05-11T09:13:34.509Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一篇测试文章&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="搭建博客" scheme="https://lavalmail.github.io/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="github" scheme="https://lavalmail.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://lavalmail.github.io/2018/05/11/hello-world/"/>
+    <id>https://lavalmail.github.io/2018/05/11/hello-world/</id>
+    <published>2018-05-11T05:56:56.778Z</published>
+    <updated>2018-05-11T05:56:56.779Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
