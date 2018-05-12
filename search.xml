@@ -1,53 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>Some Books Related to Python</title>
-      <link href="/2018/05/12/Some-Books-Related-to-Python/"/>
-      <url>/2018/05/12/Some-Books-Related-to-Python/</url>
-      <content type="html"><![CDATA[]]></content>
-      
+<search>
+  <entry>
+    <title><![CDATA[Some Books Related to Python]]></title>
+    <url>%2F2018%2F05%2F12%2FSome-Books-Related-to-Python%2F</url>
+    <content type="text"></content>
       <categories>
-          
-          <category> Python </category>
-          
+        <category>Python</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Python </tag>
-            
-            <tag> Books </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>new_post</title>
-      <link href="/2018/05/12/new-post/"/>
-      <url>/2018/05/12/new-post/</url>
-      <content type="html"><![CDATA[<ol><li>hexo new “new_post”          # Create a new post.</li><li>hexo clean                   #Remove generated files and cache.</li><li>hexo generate                # Generate static files.</li><li>hexo server                  # Start the server.</li><li>hexo deploy                  # Deploy your websires.  </li></ol>]]></content>
-      
+      <tags>
+        <tag>Python</tag>
+        <tag>Books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[new_post]]></title>
+    <url>%2F2018%2F05%2F12%2Fnew-post%2F</url>
+    <content type="text"><![CDATA[hexo new “new_post” # Create a new post. hexo clean #Remove generated files and cache. hexo generate # Generate static files. hexo server # Start the server. hexo deploy # Deploy your websires. Markdown语法 分段 两个回车 换行 两个空格 + 回车 标题 #~######，#号的个数表示几级标题， 即表示一级标题到六级标题 强调 文字 ， 文字 ， _ 文字 _ 引用 &gt; 注意后面紧跟个空格 表格 - 和 | 分割行和列，：控制对齐方式 代码块 四个空格 开头或， 使用’’’代码内容’’’ 链接 文字 图片 ！图片说明 列表*， +, -, 1. ,选其中之一， 注意后面紧跟着个空格]]></content>
       <categories>
-          
-          <category> 发布新的博客 </category>
-          
+        <category>发布新的博客</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Blog </tag>
-            
-            <tag> Create Post </tag>
-            
-        </tags>
-      
-    </entry>
-    
-  
-  
+      <tags>
+        <tag>Blog</tag>
+        <tag>Create Post</tag>
+      </tags>
+  </entry>
 </search>

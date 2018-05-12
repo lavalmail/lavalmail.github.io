@@ -41,9 +41,9 @@
     <link href="https://lavalmail.github.io/2018/05/12/new-post/"/>
     <id>https://lavalmail.github.io/2018/05/12/new-post/</id>
     <published>2018-05-12T06:52:11.000Z</published>
-    <updated>2018-05-12T10:29:26.205Z</updated>
+    <updated>2018-05-12T15:04:32.287Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>hexo new “new_post”          # Create a new post.</li><li>hexo clean                   #Remove generated files and cache.</li><li>hexo generate                # Generate static files.</li><li>hexo server                  # Start the server.</li><li>hexo deploy                  # Deploy your websires.  </li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>hexo new “new_post”          # Create a new post.</li><li>hexo clean                   #Remove generated files and cache.</li><li>hexo generate                # Generate static files.</li><li>hexo server                  # Start the server.</li><li>hexo deploy                  # Deploy your websires.  </li></ol><h1 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h1><ol><li>分段 <strong>两个回车</strong></li><li>换行 <strong>两个空格</strong> + <strong>回车</strong></li><li>标题 <strong>#</strong>~<strong>######</strong>，#号的个数表示几级标题， 即表示一级标题到六级标题  </li><li>强调 <strong> </strong>文字<strong> </strong>， <strong> 文字 </strong>， _ 文字 _</li><li>引用  &gt;  注意后面紧跟个空格</li><li>表格 <strong>-</strong> 和 <strong>|</strong> 分割行和列，：控制对齐方式</li><li>代码块 四个空格 开头或， 使用’’’代码内容’’’</li><li>链接 <a href="链接地址">文字</a></li><li>图片 ！<a href="图片地址">图片说明</a></li><li>列表*， +, -, 1. ,选其中之一， 注意后面紧跟着个空格</li></ol>]]></content>
     
     <summary type="html">
     
