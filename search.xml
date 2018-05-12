@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Some Books Related to Python]]></title>
-    <url>%2F2018%2F05%2F12%2FSome-Books-Related-to-Python%2F</url>
-    <content type="text"></content>
+<search> 
+  
+    
+    <entry>
+      <title>Some Books Related to Python</title>
+      <link href="/2018/05/12/Some-Books-Related-to-Python/"/>
+      <url>/2018/05/12/Some-Books-Related-to-Python/</url>
+      <content type="html"><![CDATA[]]></content>
+      
       <categories>
-        <category>Python</category>
+          
+          <category> Python </category>
+          
       </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[new_post]]></title>
-    <url>%2F2018%2F05%2F12%2Fnew-post%2F</url>
-    <content type="text"><![CDATA[hexo new “new_post” # Create a new post. hexo clean #Remove generated files and cache. hexo generate # Generate static files. hexo server # Start the server. hexo deploy # Deploy your websires.]]></content>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Books </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>new_post</title>
+      <link href="/2018/05/12/new-post/"/>
+      <url>/2018/05/12/new-post/</url>
+      <content type="html"><![CDATA[<ol><li>hexo new “new_post”          # Create a new post.</li><li>hexo clean                   #Remove generated files and cache.</li><li>hexo generate                # Generate static files.</li><li>hexo server                  # Start the server.</li><li>hexo deploy                  # Deploy your websires.  </li></ol>]]></content>
+      
       <categories>
-        <category>发布新的博客</category>
+          
+          <category> 发布新的博客 </category>
+          
       </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Create Post</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Create Post </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>

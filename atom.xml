@@ -41,7 +41,7 @@
     <link href="https://lavalmail.github.io/2018/05/12/new-post/"/>
     <id>https://lavalmail.github.io/2018/05/12/new-post/</id>
     <published>2018-05-12T06:52:11.000Z</published>
-    <updated>2018-05-12T07:49:04.222Z</updated>
+    <updated>2018-05-12T10:29:26.205Z</updated>
     
     <content type="html"><![CDATA[<ol><li>hexo new “new_post”          # Create a new post.</li><li>hexo clean                   #Remove generated files and cache.</li><li>hexo generate                # Generate static files.</li><li>hexo server                  # Start the server.</li><li>hexo deploy                  # Deploy your websires.  </li></ol>]]></content>
     
