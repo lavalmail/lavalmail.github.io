@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lavalmail.github.io/schedule/index.html</loc>
+    
+    <lastmod>2018-05-14T03:20:50.183Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lavalmail.github.io/board/index.html</loc>
     
     <lastmod>2018-05-14T03:06:53.973Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://lavalmail.github.io/about/index.html</loc>
     
     <lastmod>2018-05-13T12:34:14.820Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lavalmail.github.io/schedule/index.html</loc>
-    
-    <lastmod>2018-05-12T07:27:09.101Z</lastmod>
     
   </url>
   
